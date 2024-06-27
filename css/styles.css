@@ -7,26 +7,22 @@ body {
 
 header {
   background: #f4f4f4;
-  padding: 20px;
+  padding: 50px 20px;
   text-align: center;
 }
 
-h1, h2, h3 {
-  color: #444;
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
 }
 
-section {
-  padding: 20px;
-}
-
-.project img {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
+header p {
+  font-size: 1.2em;
 }
 
 .cta-button {
   display: inline-block;
+  margin-top: 20px;
   padding: 10px 20px;
   background: #007BFF;
   color: #fff;
@@ -38,8 +34,32 @@ section {
   background: #0056b3;
 }
 
+section {
+  padding: 20px;
+}
+
+section h2 {
+  color: #444;
+}
+
+.project img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
 footer {
   text-align: center;
   padding: 10px;
   background: #f4f4f4;
+}
+
+footer nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007BFF;
+}
+
+footer nav a:hover {
+  text-decoration: underline;
 }
