@@ -1,100 +1,31 @@
-/* General styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    background-color: #333;
-}
-
-nav ul li {
-    margin: 0 1rem;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    display: block;
-}
-
-nav ul li a:hover, nav ul li a.active {
-    background-color: #555;
-    border-radius: 5px;
-}
-
-section {
-    padding: 2rem;
-    background-color: #fff;
-    margin: 1rem auto;
-    width: 80%;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #333;
-    color: #fff;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-.highlights {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 2rem;
-}
-
-.highlight {
-    background-color: #eee;
-    padding: 1rem;
-    border-radius: 5px;
-    width: 30%;
-    text-align: center;
-}
-
-@media (max-width: 768px) {
-    header, section {
-        width: 100%;
-        padding: 1rem;
-    }
-
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav ul li {
-        margin: 0.5rem 0;
-    }
-
-    .highlights {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .highlight {
-        width: 80%;
-        margin-bottom: 1rem;
-    }
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian Dusape Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Brian Dusape Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="aboutme.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Welcome to My Portfolio</h2>
+        <p>Hello, I am Brian Dusape, a Product Manager with expertise in Finance and Management Information Systems. Explore my portfolio to learn more about my professional journey, the projects I have led, and how I can help your business grow.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Brian Dusape. All rights reserved.</p>
+    </footer>
+</body>
+</html>
 
 
  
